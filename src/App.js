@@ -35,15 +35,17 @@ function App() {
       </div>
       
       <hr></hr>
-
-      {
+<ul style={{listStyle:"none"}}>
+{
         Object.keys(recommendations).map((recommendation)=>{
-         return <div key={recommendation} className="content-card">
+         return <li key={recommendation} className="content-card">
            <div style={{fontSize:"25px"}}> {recommendation} </div>
            <div>{recommendations[recommendation]}</div>
-          </div>
+          </li>
         })
       }
+</ul>
+     
     </div>
   );
 }
