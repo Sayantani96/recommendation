@@ -1,3 +1,14 @@
+# Book-recommendation
+Check recommendation for books on different topics
+
+# Project Link
+https://sayantani-goodreads.netlify.app/
+
+# How to use
+Click on different topics to get recommendation
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
